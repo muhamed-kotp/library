@@ -1,0 +1,21 @@
+svg{
+    display: none;
+}
+.pagination {
+    position: absolute;
+    bottom: 50;
+    left: 100;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 29px;
+    color: rgb(199, 199, 199);
+}
+.home-nav{
+    font-weight: 500;
+    font-size: 18px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
