@@ -1,21 +1,226 @@
 svg{
     display: none;
 }
-.pagination {
+/* .pagination {
     position: absolute;
-    bottom: 50;
+    bottom: 100;
     left: 100;
+} */
+
+/* .book-details-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+.task-bar-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
-.nav-title{
+.ist-cont{
+    width: 100% ;
+    height: 100vh;
+    /* background-image: url('../uploads/welcome/aaz\ \(1\).jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../uploads/welcome/booksCarusal.jpg');
+}
+.ist-cont .img-title {
     font-weight: 800;
-    font-size: 29px;
-    color: rgb(199, 199, 199);
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    font-family: 'Alfa Slab One', serif;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+
 }
-.home-nav{
-    font-weight: 500;
-    font-size: 18px;
+.ist-cont .img-desc {
+    width: 250px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    font-family: 'Alfa Slab One', serif;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
 }
-body{
-    background-color: rgb(255, 255, 255);
+
+.search-box{
+    width: 100%;
+    height: 6rem;
+    background-color:#633852;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
+.search-box p{
+margin-top: 10px;
+margin-right: 20px;
+}
+.search-box .icon-box{
+    width: 20%;
+    display: flex;
+    justify-content: start;
+}
+.search-box .search-input-box{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-input-box input{
+    border: none;
+    margin-right: 10px;
+    padding: 10px;
+    width: 95%;
+}
+@media screen and (max-width: 767px) {
+
+    .prod-col-cont{
+      width: 95%;
+    }
+    .ist-cont{
+        width: 100% ;
+        height: 100vh;
+        /* background-image: url('../uploads/welcome/aaz\ \(1\).jpg'); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../uploads/welcome/booksSM-Carusal.jpg');
+    }
+    .ist-cont .img-title {
+        font-weight: 600;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        margin-left: 0;
+        margin-top: 200px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        font-family: 'Alfa Slab One', serif;
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+
+    }
+    .ist-cont .img-desc {
+
+        width: 90%;
+        font-weight: 200;
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+        margin-left: 20px;
+        /* margin-top: -400px; */
+        font-family: 'Alfa Slab One', serif;
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+
+    }
+  }
+
+
+
+.prod-col-cont{
+    padding: 0;
+    width: 30%;
+    overflow: hidden;
+    height: 500px;
+    margin-bottom: 30px;
+  }
+.prod-col-cont .brod-box{
+    overflow: hidden;
+    height: 80%;
+  }
+  .prod-img{
+    transition: transform 3s ease-in-out;
+    height:100% !important ;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  .prod-img:hover{
+    transform: scale(1.2);
+  }
+  .prod-name{
+    font-family: 'Alfa Slab One', serif;
+    margin-left: 20px;
+    margin-top: 10px;
+
+  }
+.prod-col-cont .card-body{
+    height: 300px;
+    padding: 0;
+}
+
+  @media screen and (max-width: 1200px) {
+    .prod-col-cont{
+      width: 45%;
+    }
+}
+@media screen and (max-width: 767px) {
+
+    .prod-col-cont{
+      width: 95%;
+    }
+  }
+@media screen and (max-width: 767px) {
+
+    .prod-col-cont{
+      width: 95%;
+    }
+    .ist-cont{
+        width: 100% ;
+        height: 100vh;
+        /* background-image: url('../uploads/welcome/aaz\ \(1\).jpg'); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../uploads/welcome/smaz.jpg');
+    }
+    .ist-cont .img-title {
+        font-weight: 600;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        margin-left: 0;
+        margin-top: 200px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        font-family: 'Alfa Slab One', serif;
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+
+    }
+    .ist-cont .img-desc {
+
+        width: 90%;
+        font-weight: 200;
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+        margin-left: 20px;
+        /* margin-top: -400px; */
+        font-family: 'Alfa Slab One', serif;
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+
+    }
+  }

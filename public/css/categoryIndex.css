@@ -1,0 +1,475 @@
+
+.ist-cont{
+    width: 100% ;
+    height: 100vh;
+    /* background-image: url('../uploads/welcome/aaz\ \(1\).jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../uploads/welcome/booksCarusal.jpg');
+}
+.ist-cont .img-title {
+    font-weight: 800;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    font-family: 'Alfa Slab One', serif;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+
+}
+.ist-cont .img-desc {
+    width: 250px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    font-family: 'Alfa Slab One', serif;
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+  .Whole-first-cont {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+  }
+  .first-left-side {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+  }
+  .first-right-side {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  .FLS-First-cont {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p-style {
+    font-size: 15px;
+    font-family: Mulish, sans-serif;
+    margin-bottom: 5px;
+  }
+  .TheWorlds {
+    font-family: "Great Vibes", cursive;
+    font-family: "Mulish", sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Rowdies", cursive;
+    font-family: "Titan One", cursive;
+    font-size: 20px;
+  }
+  .p-time-style {
+    font-size: 13px;
+    font-family: "Great Vibes", cursive;
+    font-family: "Oswald", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-style: italic !important;
+    margin-bottom: 5px;
+  }
+  .qutp-FLS {
+    display: none;
+  }
+  .qutp-FLS .istBox-FRS {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .hr {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .line {
+    border: 1px solid black;
+  }
+
+  .FLS-Second-cont {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Sc-p {
+    font-size: 14px !important;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  .Sc-Sc-p {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-style: italic;
+    font-size: 30px !important;
+    font-weight: 400;
+  }
+  .change-Bold {
+    font-weight: 800;
+  }
+  .change-color-brown {
+    color: brown;
+    font-weight: 800;
+  }
+  .Rolex-cont {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .Rolex {
+    font-family: Mulish, sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 6px #ff0000;
+  }
+
+  .Rolex-hr {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .Rolex-line {
+    border: 1px solid black;
+    width: 5rem;
+  }
+  .Rolex-LS-p-cont {
+    width: 70%;
+    margin: 0 auto;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-style: italic;
+    font-size: 30px !important;
+    font-weight: 400;
+  }
+  .LS-ist-img-cont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .LS-ist-img {
+    width: 70%;
+    height: 70vh;
+    border-radius: 10px;
+  }
+  .BY {
+    font-family: "Great Vibes", cursive;
+    font-family: "Mulish", sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Rowdies", cursive;
+    font-family: "Titan One", cursive;
+    font-style: italic;
+    font-size: 12px !important;
+    margin-bottom: 0;
+  }
+  .date {
+    font-family: "Great Vibes", cursive;
+    font-family: "Mulish", sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Rowdies", cursive;
+    font-family: "Titan One", cursive;
+    font-style: italic;
+    font-size: 14px !important;
+    opacity: 0.6;
+  }
+  .qutp {
+    color: brown;
+  }
+
+  .scndBox-FRS {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .pCont-scndBox-FRS {
+    width: 80%;
+    align-self: flex-end;
+    margin-bottom: 20px;
+  }
+  .p-scndBox-FRS {
+    font-size: 14px;
+    font-family: "Great Vibes", cursive;
+    font-family: "Oswald", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-style: italic !important;
+    margin-bottom: 5px;
+  }
+  .trdBox-FRS-title {
+    display: flex;
+  }
+  .trdBox-FRS-title {
+    display: flex;
+  }
+
+  .popular {
+    font-family: Mulish, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 6px #ff0000;
+  }
+  .pop-hr {
+    width: 100%;
+  }
+  .pop-line {
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  .hand-img {
+    height: 40vh;
+    width: 100%;
+    margin-bottom: 20px;
+    opacity: 0.6;
+  }
+  .hand-img:hover {
+    opacity: 1;
+    transition: 0.5s;
+  }
+
+  .load {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    margin-bottom: 0;
+    margin-left: 10px !important;
+  }
+  .load div {
+    width: 16px;
+    height: 16px;
+    background-color: orchid;
+    border-radius: 50%;
+    margin: 0 5px;
+    animation-name: up-and-down;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .load .two {
+    animation-delay: 0.3s;
+  }
+  .load .three {
+    animation-delay: 0.6s;
+  }
+  @keyframes up-and-down {
+    to {
+      opacity: 0.2;
+      transform: translateY(-20px);
+    }
+  }
+
+  .trdBox-FRS-p {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-style: italic;
+    font-size: 24px !important;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  .trdBox-FRS-p:hover {
+    color: brown;
+  }
+  @media screen and (max-width: 991px) {
+    .Whole-first-cont {
+      display: flex;
+      width: 100%;
+
+      flex-direction: column !important;
+    }
+    .first-left-side {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+    .first-right-side {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+    .Rolex-LS-p-cont {
+      width: 100%;
+    }
+    .FLS-Second-cont {
+      width: 100%;
+    }
+    .hr {
+      width: 100%;
+    }
+    .Rolex-hr {
+      width: 100%;
+    }
+    .Rolex-cont {
+      width: 100%;
+    }
+    .LS-ist-img {
+      width: 90%;
+    }
+  }
+  svg{
+    display: none;
+}
+/* .pagination {
+    position: absolute;
+    bottom: 100;
+    left: 100;
+} */
+
+/* .book-details-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} */
+.task-bar-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+.search-box{
+    width: 100%;
+    height: 6rem;
+    background-color:#633852;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.search-box p{
+margin-top: 10px;
+margin-right: 20px;
+}
+.search-box .icon-box{
+    width: 20%;
+    display: flex;
+    justify-content: start;
+}
+.search-box .search-input-box{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-input-box input{
+    border: none;
+    margin-right: 10px;
+    padding: 10px;
+    width: 95%;
+}
+@media screen and (max-width: 767px) {
+
+    .prod-col-cont{
+      width: 95%;
+    }
+    .ist-cont{
+        width: 100% ;
+        height: 100vh;
+        /* background-image: url('../uploads/welcome/aaz\ \(1\).jpg'); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../uploads/welcome/booksSM-Carusal.jpg');
+    }
+    .ist-cont .img-title {
+        font-weight: 600;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        margin-left: 0;
+        margin-top: 200px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        font-family: 'Alfa Slab One', serif;
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+
+    }
+    .ist-cont .img-desc {
+
+        width: 90%;
+        font-weight: 200;
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+        margin-left: 20px;
+        /* margin-top: -400px; */
+        font-family: 'Alfa Slab One', serif;
+        font-family: 'Alumni Sans Collegiate One', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+
+    }
+  }
+
+
+
+.prod-col-cont{
+    padding: 0;
+    width: 30%;
+    overflow: hidden;
+    height: 500px;
+    margin-bottom: 30px;
+  }
+.prod-col-cont .brod-box{
+    overflow: hidden;
+    height: 80%;
+  }
+  .prod-img{
+    transition: transform 3s ease-in-out;
+    height:100% !important ;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  .prod-img:hover{
+    transform: scale(1.2);
+  }
+  .prod-name{
+    font-family: 'Alfa Slab One', serif;
+    margin-left: 20px;
+    margin-top: 10px;
+
+  }
+.prod-col-cont .card-body{
+    height: 300px;
+    padding: 0;
+}
+
+  @media screen and (max-width: 1200px) {
+    .prod-col-cont{
+      width: 45%;
+    }
+}
+@media screen and (max-width: 767px) {
+
+    .prod-col-cont{
+      width: 95%;
+    }
+  }
+@media screen and (max-width: 767px) {
+
+    .prod-col-cont{
+      width: 95%;
+    }
+
+  }
